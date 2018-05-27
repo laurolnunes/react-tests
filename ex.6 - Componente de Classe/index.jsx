@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Component from './classComponent'
 
 ReactDOM.render(
-<h1>Olá React</h1>
+<Component value='Meu Componente de classe!' />
 , document.getElementById('app'))

@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import Field from './fields'
 
 ReactDOM.render(
-<h1>Olá React</h1>
+<Field initialValue='Teste' />
 , document.getElementById('app'))
